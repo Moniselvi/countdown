@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Inspiration&family=Poppins:ital,wght@0,300;1,200;1,300;1,400;1,500&family=Roboto:ital,wght@0,100;0,900;1,100;1,500&display=swap');
+ *{
+    padding:0%;
+    margin: 0px;
+    font-family:'Poppins',sans-serif;
+ }
+ body{
+    width: 100%5;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 12px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./image/719845-new-year-desktop-background-1920x1080-for-pc.jpg);
+    background-size: cover;
+    color:white
+ }
+ .counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 10px;
+ }
+ p{
+    font-size: 12px;
+    
+ }
+ .newyear{
+     font-family:'inspiration',cursive;
+     font-size: 50px;
+     font-weight: 400;
+     margin-top: 30px;
+ }
+ .box{
+    width: 50px;
+    height: 50px;
+    font-weight: 400;
+    text-align: center;
+    /* background-color: blue; */
+ }
+ small{
+    font-size: 10px;
+ }
+ @media (min-width:576px){
+    .newyear{
+        font-size: 70px;
+    }
+    p{
+        font-size: 18px;
+    }
+    .counter .box h2{
+        font-size: 30px;
+        font-weight: 400;
+        
+    }
+    .box{
+        width: 70px;
+        height: 70px;
+    }
+    small{
+        font-size: 15px;
+    }
+ }
+ @media (min-width:768px){
+    .newyear{
+        font-size: 100px;
+
+    }
+    p{
+        font-size: 25px;
+    }
+    .counter .box h2{
+        font-size: 50px;
+        font-weight: 400;
+        
+    }
+    .box{
+        width: 100px;
+        height: 100px;
+    }
+    small{
+        font-size: 20px;
+    }
+
+    
+ }
+
+ 
+ 
